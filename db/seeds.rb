@@ -5,3 +5,27 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+# # USING FAKKER
+# 10.times do
+#   Ingredient.create(
+#     name: Faker::Food.ingredient
+#   )
+# end
+
+
+Ingredient.create(name: "lemon")
+Ingredient.create(name: "ice")
+Ingredient.create(name: "mint leaves")
+Ingredient.create(name: "light rum")
+Ingredient.create(name: "applejack")
+Ingredient.create(name: "gin")
+Ingredient.create(name: "sweet vermouth")
+Ingredient.create(name: "strawberry schnapps")
+Ingredient.create(name: "brandy")
+Ingredient.create(name: "champagne")
+Ingredient.create(name: "tequila")
+Ingredient.create(name: "bourbon")
+
+
+  # USING JSON
