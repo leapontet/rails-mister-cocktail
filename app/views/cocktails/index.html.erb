@@ -1,0 +1,12 @@
+<h1>INDEX</h1>
+
+
+<% @cocktails.each do |cocktail| %>
+  <ul>
+    <li><%= link_to cocktail.name, cocktail_path(cocktail) %></li>
+  </ul>
+<% end %>
+
+<button class="btn btn-primary" type="button"><%= "Add a cocktail" %></button>
+<button class="btn btn-primary" type="button"><%= "Delete a cocktail" %></button>
+

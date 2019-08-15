@@ -27,5 +27,11 @@ Ingredient.create(name: "champagne")
 Ingredient.create(name: "tequila")
 Ingredient.create(name: "bourbon")
 
+Cocktail.create(name: "Bloody Mary")
+Cocktail.create(name: "Margarita")
+Cocktail.create(name: "Old Fashioned")
+
+
+
 
   # USING JSON
